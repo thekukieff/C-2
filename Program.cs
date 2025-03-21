@@ -28,11 +28,15 @@ namespace C_2
 
             //Engine.Physics.Vector3D vector3D = new Engine.Physics.Vector3D();
             //Vector3D secVector3D = new Vector3D();
+
+
+            Laptop laptop = new Laptop("Apple", 1.1,8,256);
+            Console.WriteLine(laptop.Info());
+
+            Car car = new Car(5634809,2026,"Красный","Opel", "vector");
+            Console.WriteLine(car.Info);
+            car.Compraision(623847);
             
-
-
-
-
 
         }
     }

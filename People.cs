@@ -27,6 +27,7 @@ namespace C_2
             return $"Фамилия: {surname}, Имя: {name}, Отчество: {patronymic}";
         }
 
+       
 
     }
 }
